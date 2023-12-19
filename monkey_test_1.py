@@ -109,9 +109,7 @@ password_entry = ttk.Entry(mainframe, width=7, textvariable=password_var)
 password_entry.grid(column=2, row=3, sticky=(W, E))
 
 ttk.Button(mainframe, text="Autorization", command=autorization).grid(column=2, row=4, sticky=(W, E))
-
 ttk.Button(mainframe, text="Go", command=pool).grid(column=2, row=5, sticky=(W, E))
-
 ttk.Button(mainframe, text="Stop", command=stop_pool).grid(column=2, row=6, sticky=(W, E))
 
 root.mainloop()
